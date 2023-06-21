@@ -1,0 +1,99 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border-bottom: 1px solid black;
+}
+
+.direita{
+    display: flex;
+    gap: 1rem;
+}
+
+.direita a{
+    text-decoration: none;
+    color: black;
+}
+
+.fora{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main img{
+    width: 350px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.meio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.meio button{
+    width: 200px;
+}
+
+section{
+    text-align: center;
+}
+
+.ajuda{
+    width: 80%;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.ajudalo{
+    padding: 5rem 0;
+    border-bottom: 1px solid black;
+    
+}
+
+.varios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid black;
+    padding: 5rem 0;
+    
+}
+
+.varios figure img{
+    width: 170px;
+}
+
+.cards .card .card-cima img{
+    width: 100px;
+}
+
+.card{
+    width: 200px;
+}
+
+.card-cima{
+    border: 1px solid black;
+
+}
+
+.card button{
+    margin: 1rem 0;
+    padding: .5rem 2rem;
+}
+
+.cards{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
