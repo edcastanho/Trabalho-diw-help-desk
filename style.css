@@ -1,99 +1,196 @@
-nav{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --azul: #008c8c;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chat {
+    width: 70px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, .5);
+    overflow: visible;
+    cursor: pointer;
+}
+
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem;
-    border-bottom: 1px solid black;
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    position: sticky;
+    top: 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, .5);
 }
 
-.direita{
+.direita {
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 
-.direita a{
+.direita a {
     text-decoration: none;
-    color: black;
 }
 
-.fora{
+.cadastro {
+    background-color: var(--azul);
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+.fora {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-main img{
+main img {
     width: 350px;
 }
 
-main{
+main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
+    flex-direction: column;
+    box-shadow: 0px 28px 62px 0px rgba(0,0,0,0.1);
 }
-
-.meio{
+.meio h1 {
+    font-size: 4rem;
+    padding-top: 3rem;
+}
+.meio p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+.meio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 70%;
+    padding-bottom: 3rem;
 }
 
-.meio button{
-    width: 200px;
+.meio button {
+    background-color: var(--azul);
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 1rem 10rem;
+    border: none;
+    margin: 2rem 0;
+    cursor: pointer;
+    color: white;
 }
 
-section{
+section {
     text-align: center;
 }
 
-.ajuda{
-    width: 80%;
+.ajudalo {
+    padding: 5rem 0;
+}
+
+.ajudalo input {
+    width: 70%;
     padding: .5rem;
     border-radius: 10px;
-}
-
-.ajudalo{
-    padding: 5rem 0;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     
 }
 
-.varios{
+.varios {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border-bottom: 1px solid black;
     padding: 5rem 0;
-    
+    background-color: rgb(249, 249, 249);
 }
 
-.varios figure img{
+.varios figure img {
     width: 170px;
 }
 
-.cards .card .card-cima img{
+.cards .card .card-cima img {
     width: 100px;
 }
 
-.card{
+.card {
     width: 200px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.card:nth-child(1) {
+    background-color: rgb(249, 249, 249);
+}
+.card:nth-child(2) {
+    background-color: rgb(249, 249, 249);
+}
+.card:nth-child(3) {
+    background-color: rgb(249, 249, 249);
+}
+.card:nth-child(4) {
+    background-color: rgb(249, 249, 249);
 }
 
-.card-cima{
-    border: 1px solid black;
+.card-cima {
+    border: 1px solid ++rgb(0, 0, 0);
 
 }
 
-.card button{
+.card button {
     margin: 1rem 0;
     padding: .5rem 2rem;
+    background-color: var(--azul);
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    color: white;
 }
 
-.cards{
+.cards {
     display: flex;
     gap: 2rem;
     justify-content: center;
     align-items: center;
+}
+
+.planos h1  {
+    padding: 4rem 0;
+}
+
+.planos {
+    padding-bottom: 4rem;
+}
+
+.planos h1 {
+    padding: 4rem 0;
+}
+
+footer {
+    background-color: var(--azul);
+    padding: 3rem ;
+    color: white;
+    text-align: center;  
+    width: 100%;
+}
+
+footer a {
+    color: white;
 }
