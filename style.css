@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all .3s ease;
 }
 
 .chat {
@@ -38,6 +39,10 @@ nav {
     box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, .5);
 }
 
+nav:hover {
+    background-color:rgb(239, 244, 245);
+}
+
 .direita {
     display: flex;
     gap: 1rem;
@@ -53,6 +58,10 @@ nav {
     color: white;
     padding: .5rem 1rem;
     border-radius: 5px;
+}
+
+.cadastro:hover {
+    background-color: rgb(97, 169, 200);
 }
 
 .fora {
@@ -89,6 +98,10 @@ main {
     padding-bottom: 3rem;
 }
 
+.meio button:hover {
+    background-color: rgb(97, 169, 200);
+}
+
 .meio button {
     background-color: var(--azul);
     font-size: 18px;
@@ -112,8 +125,11 @@ section {
     width: 70%;
     padding: .5rem;
     border-radius: 10px;
-    border: 1px solid black;
-    
+    border: .5px solid black;
+}
+
+.ajudalo input:hover {
+    background-color: rgb(249, 249, 251);
 }
 
 .varios {
@@ -135,6 +151,7 @@ section {
     width: 200px;
     padding: 1rem;
     border-radius: 5px;
+    height: 500px;
 }
 .card:nth-child(1) {
     background-color: rgb(249, 249, 249);
@@ -193,4 +210,21 @@ footer {
 
 footer a {
     color: white;
+}
+
+.palavracolorida {
+    color: rgb(255, 0, 0);
+}
+
+.cifrao {
+    font-size: 40px;
+    color: #DAA520;
+}
+
+.adquira {
+    cursor: pointer;
+}
+
+.adquira:hover {
+    background-color: rgb(97, 169, 200);
 }
