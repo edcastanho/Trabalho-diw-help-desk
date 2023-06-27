@@ -12,6 +12,55 @@
     transition: all .3s ease;
 }
 
+.invisivel {
+    display: block !important;
+}
+
+.caixa {
+    width: 200px;
+    min-height: 200px;
+    position: fixed;
+    bottom: 50px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    right: 50px;
+    display: none;
+    background-color: var(--azul);
+    color: white;
+    border-radius: 15px;
+}
+.caixa p {
+    text-align: center;
+    margin-top: 1rem;
+}
+.caixa h1 {
+    font-size: 1.5rem;
+}
+.caixa button {
+    margin-top: 2rem;
+    padding: .5rem 2rem;
+    background-color: white;
+    color: var(--azul);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botaoajuda {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa button:hover{
+    background-color:rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    color:rgb(255, 255, 255);
+    transition: 1s;
+
+
+}
+
 .chat {
     width: 70px;
     position: fixed;
@@ -149,7 +198,6 @@ section {
 
 .card {
     width: 200px;
-    padding: 1rem;
     border-radius: 5px;
     height: 500px;
 }
@@ -173,12 +221,14 @@ section {
 
 .card button {
     margin: 1rem 0;
-    padding: .5rem 2rem;
     background-color: var(--azul);
     border: none;
     padding: 1rem 3rem;
     border-radius: 5px;
     color: white;
+}
+.card-baixo {
+    margin-top: 2rem;
 }
 
 .cards {
@@ -213,7 +263,7 @@ footer a {
 }
 
 .palavracolorida {
-    color: rgb(255, 0, 0);
+    color: var(--azul);
 }
 
 .cifrao {
