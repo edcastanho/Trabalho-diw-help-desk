@@ -187,6 +187,7 @@ section {
 
 .funcion {
     background-color: rgb(249, 249, 251);
+    padding: 2rem 0;
 }
 
 .funcionalidades {
@@ -196,15 +197,21 @@ section {
 ul {
     padding: 20px;
     text-align: left;
-    margin-left: 100px;
     align-items: center;
 }
 
 .imgfuncion {
-    width: 500px;
-    height: 400;
-    margin-left: 800px;
+    width: 550px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+}
+
+
+
 
 .card {
     width: 200px;
@@ -296,9 +303,9 @@ footer a {
 
 @keyframes changeColor {
     0% {color: rgb(255, 0, 0);}
-    20% {color: rgb(255, 162, 0);}
-    40% {color: #86da20;}
-    60% {color: #20da96;}
-    80% {color: #3920da;}
-    100% {color: #da20b8;}
+    20% {color: rgb(255, 247, 0);}
+    40% {color: #26ff00;}
+    60% {color: #00fbff;}
+    80% {color: #2f00ff;}
+    100% {color: #ff00dd;}
 }
